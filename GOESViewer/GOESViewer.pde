@@ -130,7 +130,7 @@ void draw(){
   }
  
   
-  // If we are animating, we want to decrease the ImageToView number. The delay specifies how long to wait before resetting the anim. This that pause at the end of loops that you normally see.
+  // If we are animating, we want to decrease the ImageToView number. The delay specifies how long to wait before resetting the anim. This is that pause at the end of loops that you normally see.
   if(animate){
   
   if(millis() >= lastAnimMillis + timeBetweenAnims){
