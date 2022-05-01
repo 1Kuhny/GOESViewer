@@ -12,7 +12,7 @@ This will give you an executable that can run standalone. Which is good for case
 
 // The default starting view
 // 0 = CONUS 1 = FD 2 = Custom Meso 3 = FSCLR FD 4 = FSCLR MESOA 5 = MesoM1 6 = MesoM2
-int currentlyViewing = 5;
+int currentlyViewing = 0;
 
 // The Base Directories, shouldn't have to change these unless you start doing something custom, like in my case, reading from a network drive
 String CONUSDir = "MostRecentCONUS";
