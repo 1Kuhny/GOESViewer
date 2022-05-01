@@ -26,7 +26,7 @@ To get this set up without having to change any major part of the program:
 
 2.  Open the sort.py using the included editor that is installed by python (usually IDLE), or by using notepad (not recommended due to indentation issues).
 
-3.  Configure the settings that you want. Mainly what fileFormat (can be anything really, but .jpg is default), timeBetweenSearch (how often the proram searches the main image folder), maxLoopedImages (this will tell the program how many blank images to create and then later shift), and StoreImages which tells the program if it should store images in the correct folders after shifting or just delete them (default is to store them)
+3.  Configure the settings that you want. Mainly what fileFormat (can be anything really, but .jpg is default), timeBetweenSearch (how often the program searches the main image folder), maxLoopedImages (this will tell the program how many blank images to create and then later shift), and StoreImages which tells the program if it should store images in the correct folders after shifting or just delete them (default is to store them)
 
 4. Run the runFileTransfer.bat to start the sorter
 
@@ -50,7 +50,7 @@ To get this set up without having to change any major part of the program:
 ################## Processing #######################
 
 
-10.  Next, go into the prossing sketch (GOESViewer.pde)
+10. Next, go into the prossing sketch (GOESViewer.pde)
 
 11. Go through the top variables and configure them to your needs
 
@@ -58,7 +58,9 @@ To get this set up without having to change any major part of the program:
 
 13. Run the script by pressing the play button at the top or by pressing CTRL+R
 
-14 Finally, if everything runs good, you can complile it and run standalone by going to File->Export Application and then click Export
+14. Basic Controls are UP/DOWN arrow to change views, LEFT Arrow to force update and image reload. Processing requires that you click in the window before it detects keystrokes. It must not force focus for some reason.
+
+15. Finally, if everything runs good, you can complile it and run standalone by going to File->Export Application and then click Export
 
 
 
