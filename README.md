@@ -13,7 +13,7 @@ https://processing.org/download
 
 - Optional but highly recmmended.
   - Move the autoDel.bat and autoDelete.py to the folder that is before the folder that contains the LRIT files (in my case, this program is put in output/Images)
-  - This autodelete program will make sure that the image processor does not continue to output the same image over and over again.
+  - This autodelete program will make sure that the image processor does not continue to output the same image over and over again. Which will cause the sequence to display the same image over and over again.
   - My reception is not overly great so this could be why the image processor I use does not delete the LRIT files properly
 
 #################### Sorter ##########################
