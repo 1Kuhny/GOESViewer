@@ -303,7 +303,7 @@ void loadImages(){
     // Basically the same as above, but with only the Full Disk FSCLR, because it looks cool.
     if(currentlyViewing == 3){
       for(int i = 0; i < maxImagesToLoad; i++){
-        FSCLR[i] = loadImage("MostRecentFullDisk/FSCLR/"+ str(i) + ".jpg");
+        FSCLR[i] = loadImage(FDDir + "/FSCLR/" + str(i) + ".jpg");
         FSCLR[i].resize(height-80, height-80);
       }
     lastMillis = millis();
@@ -312,7 +312,7 @@ void loadImages(){
     // Only the Custom Meso A FSCLR, because again it looks cool.
     if(currentlyViewing == 4){
       for(int i = 0; i < maxImagesToLoad; i++){
-        FSCLR[i] = loadImage("MostRecentMESOA/FSCLR/"+ str(i) + ".jpg");
+        FSCLR[i] = loadImage(MESOADir+"/FSCLR/"+ str(i) + ".jpg");
         FSCLR[i].resize(height-80, height-80);
       }
     lastMillis = millis();
