@@ -28,7 +28,7 @@ To get this set up without having to change any major part of the program:
 
 3.  Configure the settings that you want. Mainly what fileFormat (can be anything really, but .jpg is default), timeBetweenSearch (how often the proram searches the main image folder), maxLoopedImages (this will tell the program how many blank images to create and then later shift), and StoreImages which tells the program if it should store images in the correct folders after shifting or just delete them (default is to store them)
 
-4. Run the runFileTransfer.bat ti start the sorter
+4. Run the runFileTransfer.bat to start the sorter
 
 
 
@@ -44,7 +44,7 @@ To get this set up without having to change any major part of the program:
 
 8. It will then shift the image sequence, delete the oldest one (more of an overwrite) and then copy the image that it found, into the 0 position.
 
-9. It will then move the image from the main GOESImages folder to the correct view and then to the correct band.
+9. If told to do so, it will then move the image from the main GOESImages folder to the correct view and then to the correct band. Otherwise it will just be deleted.
 
 
 ################## Processing #######################
