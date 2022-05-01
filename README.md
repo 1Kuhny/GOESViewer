@@ -1,5 +1,5 @@
 
-################ THIS CODE IS EXPERIMENTAL, MAKE A BACK UP OF YOUR IMAGES #######################
+########## THIS CODE IS EXPERIMENTAL, MAKE A BACK UP OF YOUR IMAGES ###########
 
 
 Prerequisites
