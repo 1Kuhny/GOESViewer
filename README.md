@@ -54,9 +54,9 @@ To get this set up without having to change any major part of the program:
 
 11. Set your resolution by commenting/uncommenting it on lines 89 and 90 (The one uncommented by default is 1080p, the other is 2k)
 
-11. Run the script by pressing the play button at the top or by pressing CTRL+R
+12. Run the script by pressing the play button at the top or by pressing CTRL+R
 
-12 Finally, if everything runs good, you can complile it and run standalone by going to File->Export Application and then click Export
+13 Finally, if everything runs good, you can complile it and run standalone by going to File->Export Application and then click Export
 
 
 
