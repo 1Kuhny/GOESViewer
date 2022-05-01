@@ -39,7 +39,7 @@ createBlanks = True
 timeBetweenSearch = 10
 
 # Store the images in the respective bands
-StoreImages = False;
+StoreImages = True;
 
 products = ["FSCLR", "IR(3.9)", "IR(6.2)", "IR(6.9)", "IR(10.3)", "IR(11.2)", "IR(12.3)", "VIS(0.64)"]
 
